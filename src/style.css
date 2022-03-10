@@ -1,0 +1,110 @@
+body {
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.content-title{
+    font-weight: bolder;
+
+}
+.container {
+    display: grid;
+    justify-items: center;
+    background-color: #ECFDF5;
+    gap: 50px;
+    padding-bottom: 100px;
+    padding-top: 40px;
+}
+.page-title {
+    font-weight: bolder;
+    font-size: 30px;
+}
+.inner-container {
+    width: 400px;
+    background-color: #D1FAE5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+}
+#nav-bar {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 150px 150px 150px;
+    background-color: #047857;
+    padding: 20px;
+}
+.hours-list {
+    display: grid;
+
+    justify-items: baseline;
+}
+
+li {
+    list-style: none;
+}
+button {
+    background-color: #064E3B;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 120px;
+    border-color: #D1FAE5;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 4px;
+    height: 40px;
+}
+button:hover,
+button:active {
+    font-size: 30px;
+}
+button:disabled {
+    height: 50px;
+    font-size: 25px;
+}
+.menu-image{
+    width: 300px;
+    height: 300px;
+    border-radius: 4px;
+    grid-row: 3 / 4;
+}
+
+.menu-container {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    display: grid;
+    grid-template-columns: 350px 350px;
+    justify-content: center;
+    gap: 30px;
+    background-color: #ECFDF5;
+}
+.item-container {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 250px 50px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #D1FAE5;
+    box-shadow: 5px 5px 5px gray;
+    
+}
+.item-container:hover{
+    box-shadow: 5px 5px 5px black;
+}
+.item-title {
+    grid-column: 1 / 2;
+
+}
+.item-price {
+    grid-column: 2 / 3;
+}
+.item-description {
+    grid-row: 2 / 3;
+    grid-column: 1 / 3;
+    font-weight: lighter;
+    font-size: 15px;
+}
+.contact-container {
+    background-color: #D1FAE5;
+    box-shadow: 5px 5px 5px gray;
+    padding: 20px;
+    border-radius: 4px;
+}
